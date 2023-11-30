@@ -63,11 +63,10 @@ export default function Home() {
     <body>
       <div className="bg-cover bg-gradient-to-r from-blue-700 to-blue-400">
         <div className="bg-white/25 w-full flex flex-col h-fit">
-          <div className="flex flex-col md:flex-row justify-between items-center p-12">
+          <div className="flex flex-col md:flex-row justify-between items-center p-6">
             <Input handleSearch={handleSearch} setCity={setCity} />
             <h1 className="mb-8 md:mb-0 order-1 text-white py-2 px-4 rounded-xl font-bold">
-              {" "}
-              Utku's Forecast App{" "}
+              Utku's Forecast App
             </h1>
           </div>
           {content}
